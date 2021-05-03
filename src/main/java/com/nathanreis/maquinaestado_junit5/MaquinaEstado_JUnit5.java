@@ -14,5 +14,8 @@ public class MaquinaEstado_JUnit5 {
         while (!exit) {
             exit = Config.getInstance().getNextStateMachine().execute();
         }
+        
+        System.out.println("");
+        System.out.println("Mata ne " + Config.getInstance().getGenre() + " :(");
     }
 }

@@ -5,7 +5,7 @@ import com.nathanreis.maquinaestado_junit5.statemachine.IStateMachine;
 public class Config {
     private static Config instance;
     
-    private String genre;
+    private String genre = "";
     private IStateMachine nextStateMachine;
     
     private Config() {}
